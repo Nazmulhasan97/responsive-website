@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FFF9F4;
+}
+section{
+    margin-top: 8%;
+}
+
+.top-header ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #464b49;
+    text-transform: uppercase;
+}
+.top-header ul li a:hover{
+   background-color: #36a6d3;
+
+}
+
+h1{
+   font-family: 'Bebas Neue', cursive;
+   font-weight: 700;
+   font-size: 80px;
+   color: #363958;
+}
+.name-highlight{
+    color: #FA804C;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 48px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FA804C;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition-duration: 0.7s;
+    transition-delay: 0.01s;
+}
+.btn img{
+    width: 25%;
+    
+}
+.btn:hover {
+    color: #000;
+    background-color: #e44343;
+    transition-delay: 0.1s;
+}
+.btn{
+    padding: 12px 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3645C4;
+    color: #fff;
+}
+.shop-information{
+    background-color: #ace6ce;
+    padding: 45px;
+    border-radius: 5px;
+}
+.contact-form{
+    background-color: rgb(243, 243, 243);
+    height: 250px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.delivery-guidline h3{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+input[type=text] {
+    background-color: #464b49;
+    color: white;
+  }
+  input[type=text]::placeholder {
+    color: #fff;
+  }
+
+footer{
+    font-weight: 700;
+    font-size: 17px;
+}
+@media(max-width:768px){
+
+    .content-detail{
+        grid-column: span;
+        margin:30px;
+        text-align: center;
+    }
+}
